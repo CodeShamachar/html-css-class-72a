@@ -1,0 +1,248 @@
+/* ------------------------ */
+/* -----মোবাইল রেস্পন্সিভ কোড------- */
+/* ------------------------ */
+
+@media (max-width: 600px) {
+  .headerTop .headTopLeft {
+    display: none;
+  }
+  .headTopRight ul li:nth-child(4) {
+    display: none;
+  }
+  .headTopRight ul li:nth-child(3) {
+    border: none;
+  }
+  .headTopRight ul {
+    font-size: 0.7rem;
+    width: 95vw;
+    margin: auto;
+  }
+
+  /* --হেডার মেইন---- */
+
+  .headerMain {
+    flex-wrap: wrap;
+  }
+
+  .logo a {
+    font-size: 1.5rem;
+  }
+  .headMenuSearch {
+    order: 1;
+    margin: 20px 0;
+  }
+
+  .search {
+    width: 90%;
+    padding: 0 5px;
+  }
+
+  .headMenuSearch span {
+    display: none;
+  }
+  .headIcon {
+    height: 30px;
+    width: 30px;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  input {
+    width: 90%;
+  }
+  .menu i:hover {
+    color: var(--primaryColor);
+  }
+
+  .headerMain {
+    padding: 10px 5px 0 5px;
+  }
+
+  /* -----ব্যানার ক্যাটাগরি------- */
+
+  .headerCategory ul {
+    display: none;
+  }
+  .headerCategory {
+    margin: 0 10px;
+  }
+  .headerCategory span {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* -------------------- */
+  /*=========হিরো==========*/
+  /* -------------------- */
+  .herro {
+    margin: 10px;
+    flex-wrap: wrap;
+  }
+
+  /* --টেক্সট */
+  .heroText1 {
+    font-size: 1rem;
+  }
+  .heroText2 {
+    font-size: 1.5rem;
+    padding: 5px 0;
+    width: 400px;
+  }
+
+  .herooText button {
+    padding: 5px 20px;
+    font-size: 1rem;
+  }
+
+  /* হিরো স্লাইডার ইমেজ */
+
+  .herooImg img {
+    width: 100%;
+  }
+
+  /* --হিরো আইকন- */
+  .sliderIcon .dot {
+    top: 98%;
+    width: 20px;
+  }
+
+  /* হিরো এডস ও বক্স */
+
+  .herooAdsBox {
+    width: 100vw;
+    padding: 10px 0;
+    gap: 10px;
+  }
+
+  .heroAds {
+    width: 100%;
+  }
+
+  /* ------------productListSection */
+
+  .productListSection {
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+
+  .produclistLeft {
+    width: 100%;
+    align-items: center;
+    margin: auto;
+  }
+
+  .productCategory {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .productAds img {
+    display: none;
+  }
+
+  /* -----------------Right */
+
+  .productFlexBox {
+    gap: 0px;
+  }
+  .productCard {
+    max-width: 50%;
+    width: 100%;
+    margin: auto;
+  }
+
+  /* card font size controll */
+
+  .productCate {
+    font-size: 0.9rem;
+  }
+  .productInfo {
+    font-size: 1.1rem;
+  }
+
+  /* -------------ব্র্যান্ড ইমেজ */
+  .brandImgs img {
+    width: 110px;
+  }
+  .brandImgs {
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: scroll;
+    padding-left: 200px;
+    margin: 20px;
+  }
+
+  .brandImgs::-webkit-scrollbar {
+    height: 2px;
+  }
+
+  .brandImgs::-webkit-scrollbar-track {
+    background: var(--borderColor);
+  }
+
+  .brandImgs::-webkit-scrollbar-thumb {
+    background: var(--textColor);
+  }
+
+  .brandImgs::-webkit-scrollbar-thumb:hover {
+    background: var(--primaryColor);
+  }
+
+  /* ------------ফিচার সেকশন */
+
+  .AllfeaturedSection {
+  }
+  .featuredProduct {
+    width: 90%;
+    margin: auto;
+  }
+
+  /* ----্নিউজলেটার */
+
+  .newsletter1 {
+    display: none;
+  }
+  .newsletter3 input {
+    font-size: 0.8rem;
+    width: 60%;
+  }
+  .newsletter3 button {
+    font-size: 1rem;
+    padding: 5px 20px;
+  }
+  .newsletter {
+    margin: 10px;
+  }
+
+  /* ----ফুটার------ */
+  .footMain {
+    gap: 30px;
+    padding: 20px 5px;
+  }
+  .foot-col-sec {
+    max-width: 40%;
+    width: 100%;
+    margin-right: 10px;
+  }
+
+  .android img,
+  .ios img {
+    width: 80px;
+  }
+  .footCopyright {
+    justify-content: center;
+  }
+  .phone,
+  .email,
+  .locat {
+    margin: 5px 0;
+    gap: 5px;
+    width: 180px;
+    font-size: 0.9rem;
+  }
+  .foot-col {
+    padding-top: 20px;
+  }
+}
